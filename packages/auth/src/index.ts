@@ -73,6 +73,10 @@ export {
 	FetchDevicesOutput,
 } from './providers/cognito';
 
+export {
+getAuthenticationHelper,
+} from './providers/cognito/utils/srp/getAuthenticationHelper';
+
 export { AuthError } from './errors/AuthError';
 
 export {
